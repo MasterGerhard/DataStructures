@@ -14,26 +14,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let tree = BinarySearchTree(data:18)
-        tree.insert(data: 21)
-        tree.insert(data: 7)
-        tree.insert(data: 64)
-        tree.insert(data: 13)
-        tree.insert(data: 2)
-        tree.insert(data: 0)
-        tree.insert(data: 100)
-        tree.insert(data: 101)
-        
-        print("printing in order:\n")
-        tree.printInOrder()
-        
-        print("printing preorder:\n")
-        tree.printPreOrder()
-        
-        print("printing postorder:\n")
-        tree.printPostOrder()
-    
-        
+        let heap = MinIntHeap()
+        heap.add(item: 2)
+        heap.add(item: 69)
+        heap.add(item: 5)
+        heap.add(item: 54)
+        heap.add(item: 7)
+        heap.add(item: 88)
+        heap.add(item: 0)
+        heap.add(item: 5)
+        heap.add(item: 21)
+        heap.add(item: 2)
+        heap.printHeapArray()
         
     }
 

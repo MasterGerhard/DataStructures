@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84FF0A03217A52CA00870B4A /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0A02217A52CA00870B4A /* Heap.swift */; };
 		A6FE866421349C77001FEB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FE866321349C77001FEB4D /* AppDelegate.swift */; };
 		A6FE866621349C77001FEB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FE866521349C77001FEB4D /* ViewController.swift */; };
 		A6FE866921349C77001FEB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FE866721349C77001FEB4D /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84FF0A02217A52CA00870B4A /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		A6FE866021349C77001FEB4D /* DataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FE866321349C77001FEB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6FE866521349C77001FEB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84FF0A01217A52B500870B4A /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0A02217A52CA00870B4A /* Heap.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
 		A6FE865721349C77001FEB4D = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 				A6FE866A21349C78001FEB4D /* Assets.xcassets */,
 				A6FE866C21349C78001FEB4D /* LaunchScreen.storyboard */,
 				A6FE866F21349C78001FEB4D /* Info.plist */,
+				84FF0A01217A52B500870B4A /* Heap */,
 				A6FE867F2139E95A001FEB4D /* Trees */,
 				A6FE867A2134DFA7001FEB4D /* StacksAndQueues */,
 				A6FE867721349D11001FEB4D /* LinkedList */,
@@ -140,6 +151,7 @@
 				TargetAttributes = {
 					A6FE865F21349C77001FEB4D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -185,6 +197,7 @@
 				A6FE866621349C77001FEB4D /* ViewController.swift in Sources */,
 				A6FE866421349C77001FEB4D /* AppDelegate.swift in Sources */,
 				A6FE867C2134E061001FEB4D /* Queue.swift in Sources */,
+				84FF0A03217A52CA00870B4A /* Heap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +350,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gerhard.DataStructures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -355,7 +368,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gerhard.DataStructures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
