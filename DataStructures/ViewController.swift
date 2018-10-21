@@ -14,19 +14,22 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let heap = MinIntHeap()
-        heap.add(item: 2)
-        heap.add(item: 69)
-        heap.add(item: 5)
-        heap.add(item: 54)
-        heap.add(item: 7)
-        heap.add(item: 88)
-        heap.add(item: 0)
-        heap.add(item: 5)
-        heap.add(item: 21)
-        heap.add(item: 2)
-        heap.printHeapArray()
-        
+//        let hash = HashTable()
+//        hash.put(key: "1", value: 1)
+//        hash.put(key: "2", value: 2)
+//        hash.put(key: "steven", value: 4)
+//        hash.put(key: "data", value: 77)
+//        hash.put(key: "dad", value: 68)
+//        hash.put(key: "farm", value: 5445)
+//        
+//        
+//        print(hash.getValue(key:"1"))
+//        print(hash.getValue(key:"2"))
+//        print(hash.getValue(key:"steven"))
+//        print(hash.getValue(key:"data"))
+//        print(hash.getValue(key:"dad"))
+//        print(hash.getValue(key:"farm"))
+//        print(hash.getValue(key:"farbn"))
     }
 
     override func didReceiveMemoryWarning() {
