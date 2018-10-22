@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let array = [67,324,1,2,56,23,66,4,1]
-        print(array.mergeSort())
+        print(array.quickSort())
     }
 
     override func didReceiveMemoryWarning() {

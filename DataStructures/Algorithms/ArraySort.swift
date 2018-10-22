@@ -12,6 +12,10 @@ extension Array where Element == Int {
     public func mergeSort() -> [Int] {
         return ArraySort().mergeSort(array: self)
     }
+    
+    public func quickSort() -> [Int] {
+        return ArraySort().quickSort(array: self)
+    }
 }
 
 fileprivate class ArraySort {
@@ -43,6 +47,37 @@ fileprivate class ArraySort {
             }
         }
         return mergedArray + left + right
+    }
+    
+    public func quickSort(array : [Int]) -> [Int] {
+        guard array.count > 1 else {
+            return array
+        }
+        let pivot = array.count/2
+        let (leftArray, rightArray) = partion(array: array, pivot: pivot)
+        var sortedLeft = quickSort(array: leftArray)
+        sortedLeft.append(array[pivot])
+        let sortedRight = quickSort(array: rightArray)
+        
+        return sortedLeft + sortedRight
+    }
+    
+    private func partion(array : [Int], pivot : Int) -> ([Int] , [Int]) {
+        var leftArray = [Int]()
+        var rightArray = [Int]()
+        var array = array
+        let pivotValue = array[pivot]
+        array.remove(at: pivot)
+        
+        for index in 0..<array.count  {
+            if array[index] < pivotValue {
+                leftArray.append(array[index])
+            }
+            else {
+                rightArray.append(array[index])
+            }
+        }
+        return (leftArray,rightArray)
     }
 
 }
