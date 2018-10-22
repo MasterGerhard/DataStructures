@@ -14,14 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let trie = Trie()
-        trie.insert(word: "steven")
-        print("is steven a word? : \(trie.search(word: "steven"))")
-        trie.insert(word: "ste")
-
-        print("is steven a word? : \(trie.search(word: "steven"))")
-        print("is ste a word? : \(trie.search(word: "ste"))")
-        print("is stev a word? : \(trie.search(word: "stev"))")
+        let array = [67,324,1,2,56,23,66,4,1]
+        print(array.mergeSort())
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,4 +26,3 @@ class ViewController: UIViewController {
 
 
 }
-
