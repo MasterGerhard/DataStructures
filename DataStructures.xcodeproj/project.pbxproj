@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		84FF0A03217A52CA00870B4A /* MinIntHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0A02217A52CA00870B4A /* MinIntHeap.swift */; };
 		A6E4DF5D217D306800D7F320 /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E4DF5C217D306800D7F320 /* HashTable.swift */; };
+		A6E4DF60217D474400D7F320 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E4DF5F217D474400D7F320 /* Trie.swift */; };
 		A6FE866421349C77001FEB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FE866321349C77001FEB4D /* AppDelegate.swift */; };
 		A6FE866621349C77001FEB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FE866521349C77001FEB4D /* ViewController.swift */; };
 		A6FE866921349C77001FEB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FE866721349C77001FEB4D /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		84FF0A02217A52CA00870B4A /* MinIntHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinIntHeap.swift; sourceTree = "<group>"; };
 		A6E4DF5C217D306800D7F320 /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
+		A6E4DF5F217D474400D7F320 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		A6FE866021349C77001FEB4D /* DataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FE866321349C77001FEB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6FE866521349C77001FEB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 			path = HashTable;
 			sourceTree = "<group>";
 		};
+		A6E4DF5E217D473400D7F320 /* Trie */ = {
+			isa = PBXGroup;
+			children = (
+				A6E4DF5F217D474400D7F320 /* Trie.swift */,
+			);
+			path = Trie;
+			sourceTree = "<group>";
+		};
 		A6FE865721349C77001FEB4D = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 				A6FE866A21349C78001FEB4D /* Assets.xcassets */,
 				A6FE866C21349C78001FEB4D /* LaunchScreen.storyboard */,
 				A6FE866F21349C78001FEB4D /* Info.plist */,
+				A6E4DF5E217D473400D7F320 /* Trie */,
 				A6E4DF5B217D2EAE00D7F320 /* HashTable */,
 				84FF0A01217A52B500870B4A /* Heap */,
 				A6FE867F2139E95A001FEB4D /* Trees */,
@@ -205,6 +216,7 @@
 				A6FE867621349D00001FEB4D /* LinkedList.swift in Sources */,
 				A6FE867E2134E788001FEB4D /* Stack.swift in Sources */,
 				A6FE86822139E995001FEB4D /* BinarySearchTree.swift in Sources */,
+				A6E4DF60217D474400D7F320 /* Trie.swift in Sources */,
 				A6FE866621349C77001FEB4D /* ViewController.swift in Sources */,
 				A6FE866421349C77001FEB4D /* AppDelegate.swift in Sources */,
 				A6FE867C2134E061001FEB4D /* Queue.swift in Sources */,

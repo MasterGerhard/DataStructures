@@ -14,22 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-//        let hash = HashTable()
-//        hash.put(key: "1", value: 1)
-//        hash.put(key: "2", value: 2)
-//        hash.put(key: "steven", value: 4)
-//        hash.put(key: "data", value: 77)
-//        hash.put(key: "dad", value: 68)
-//        hash.put(key: "farm", value: 5445)
-//        
-//        
-//        print(hash.getValue(key:"1"))
-//        print(hash.getValue(key:"2"))
-//        print(hash.getValue(key:"steven"))
-//        print(hash.getValue(key:"data"))
-//        print(hash.getValue(key:"dad"))
-//        print(hash.getValue(key:"farm"))
-//        print(hash.getValue(key:"farbn"))
+        let trie = Trie()
+        trie.insert(word: "steven")
+        print("is steven a word? : \(trie.search(word: "steven"))")
+        trie.insert(word: "ste")
+
+        print("is steven a word? : \(trie.search(word: "steven"))")
+        print("is ste a word? : \(trie.search(word: "ste"))")
+        print("is stev a word? : \(trie.search(word: "stev"))")
     }
 
     override func didReceiveMemoryWarning() {
