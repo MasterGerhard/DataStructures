@@ -14,8 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let array = [67,324,1,2,56,23,66,4,1]
-        print(array.quickSort())
+        var array = [67,324,1,2,56,23,66,4,1]
+        array = array.quickSort()
+        print(array)
+        print(array.binarySearch(x: 67))
     }
 
     override func didReceiveMemoryWarning() {

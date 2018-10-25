@@ -13,6 +13,7 @@
 		A6E4DF63217E4FF600D7F320 /* ArraySort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E4DF62217E4FF600D7F320 /* ArraySort.swift */; };
 		A6E4DF65217FB1FA00D7F320 /* GraphSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E4DF64217FB1FA00D7F320 /* GraphSearch.swift */; };
 		A6E4DF68217FB65600D7F320 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E4DF67217FB65600D7F320 /* Graph.swift */; };
+		A6E4DF6A2182629600D7F320 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E4DF692182629600D7F320 /* BinarySearch.swift */; };
 		A6FE866421349C77001FEB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FE866321349C77001FEB4D /* AppDelegate.swift */; };
 		A6FE866621349C77001FEB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FE866521349C77001FEB4D /* ViewController.swift */; };
 		A6FE866921349C77001FEB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FE866721349C77001FEB4D /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		A6E4DF62217E4FF600D7F320 /* ArraySort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySort.swift; sourceTree = "<group>"; };
 		A6E4DF64217FB1FA00D7F320 /* GraphSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphSearch.swift; sourceTree = "<group>"; };
 		A6E4DF67217FB65600D7F320 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		A6E4DF692182629600D7F320 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		A6FE866021349C77001FEB4D /* DataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FE866321349C77001FEB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6FE866521349C77001FEB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			children = (
 				A6E4DF62217E4FF600D7F320 /* ArraySort.swift */,
 				A6E4DF64217FB1FA00D7F320 /* GraphSearch.swift */,
+				A6E4DF692182629600D7F320 /* BinarySearch.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E4DF65217FB1FA00D7F320 /* GraphSearch.swift in Sources */,
+				A6E4DF6A2182629600D7F320 /* BinarySearch.swift in Sources */,
 				A6E4DF68217FB65600D7F320 /* Graph.swift in Sources */,
 				A6FE867621349D00001FEB4D /* LinkedList.swift in Sources */,
 				A6FE867E2134E788001FEB4D /* Stack.swift in Sources */,
